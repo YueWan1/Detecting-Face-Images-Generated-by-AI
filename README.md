@@ -12,9 +12,7 @@
 
 ---
 
-## Quick Start
-
-### 1) Environment Setup
+## Environment Setup
 
 ```bash
 pip install -r requirements.txt
@@ -29,8 +27,7 @@ Typical sources (examples):
 - **FFHQ** (real faces, NVIDIA): <https://github.com/NVlabs/ffhq-dataset>
 - **1-Million-Fake-Faces** (synthetic, Kaggle): <https://kaggle.com/datasets/tunguz/1-million-fake-faces>
 
-This repo assumes a **two‑class directory layout** (`real/`, `fake/`) with `train/`, `val/`, and `test/` splits (see [Project Structure](#project-structure)).  
-You can substitute your own data—just keep the same directory layout and class names.
+This repo assumes a **two‑class directory layout** (`real/`, `fake/`) with `train/`, `val/`, and `test/` splits.
 
 ---
 
